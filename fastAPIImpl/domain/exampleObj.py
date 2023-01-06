@@ -16,3 +16,7 @@ class TodoEntry:
 
     def set_tag(self, tag: str) -> None:
         self.tags.add(tag)
+
+    @classmethod
+    def create_from_content(cls, param):
+        pass
