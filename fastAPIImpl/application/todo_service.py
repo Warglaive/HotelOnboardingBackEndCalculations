@@ -1,8 +1,8 @@
 from dataclasses import dataclass
 from typing import Optional
 
-from domain import TodoEntry
-from domain import ITodoEntryRepository
+from domain.todo import TodoEntry
+from domain.todo_entry_repository import ITodoEntryRepository
 
 
 @dataclass

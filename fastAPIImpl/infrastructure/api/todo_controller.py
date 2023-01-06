@@ -4,9 +4,9 @@ from typing import Optional
 from dependency_injector.wiring import Provide
 from fastapi import APIRouter
 
-from application import TodoService
+from application.todo_service import TodoService
 from container import ApplicationContainer
-from infrastructure.api.todo_schema import TodoEntrySchema
+from infrastructure.api.todo_schema import TodoEntrySchema, TodoEntryAddSchema
 
 todo_service: TodoService = Provide[ApplicationContainer.todo_service]
 
@@ -24,5 +24,5 @@ async def list_todos(search: Optional[str] = None) -> list[TodoEntrySchema]:
 
 
 @router.post("/")
-async def add_todo(content: str) -> str:
-    return todo_service.add_entry(content)
+async def add_todo(entry: TodoEntryAddSchema) -> str:
+    return todo_service.add_entry(entry.content)

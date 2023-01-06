@@ -11,12 +11,8 @@ class TodoEntry:
     tags: set[str] = field(default_factory=set)
 
     @classmethod
-    def create_from_dict(cls, content: str) -> "TodoEntry":
+    def create_from_content(cls, content: str) -> "TodoEntry":
         return cls(id=str(uuid.uuid4()), created_at=datetime.utcnow(), content=content)
 
     def set_tag(self, tag: str) -> None:
         self.tags.add(tag)
-
-    @classmethod
-    def create_from_content(cls, param):
-        pass
