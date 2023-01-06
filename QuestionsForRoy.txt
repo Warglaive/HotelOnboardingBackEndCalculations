@@ -1,0 +1,4 @@
+Do we need to deal with:
+one or more storage systems, a database, a caching layer, an object storage service, a secret store, and more complex systems like cloud providers APIs, Kubernetes, etc.
+
+Would FastAPI be sufficient?
