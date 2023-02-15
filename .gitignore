@@ -238,4 +238,4 @@ fabric.properties
 dummyImplementation/.idea/workspace.xml
 
 # indent backup files
-*.BAK
+*.vpp.bak_*
