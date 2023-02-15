@@ -1,1 +1,4 @@
 15/02/2023
+use case scenarious (ask Bart and Alba)
+one hotel -> multiple packages
+Better DB design for next weeks
