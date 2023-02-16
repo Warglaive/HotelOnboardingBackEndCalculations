@@ -28,3 +28,4 @@
 | Result | Hotel data filled in successfully |
 | Exceptions | 1. Hotel does not exist<br> 2.  |
 | Extensions | If the hotel does not exist -> actor fills in data manually  |
+# Continue at "Fill in optional (hotel exclusive) details"
