@@ -1,11 +1,20 @@
-## Customer
-| Name | Customer view all booking requests|
+## Hotel Manger
+| Hotel manager calculator | 1. Hotel manager uses revenue calculator |
 | --- | --- |
-| Actor | Customer |
-| Description | Customer view all booking requests |
-| Precondition |  1. Customer must be logged in. <br> 2. Customer must have created at least 1 booking request|
-| Scenario | 1. Customer accesses "View all booking requests" option on the main view.<br> 2. System provides a view containing all booking requests|
-| Result | Customer views all options for his role |
+| Actor | Hotel manager |
+| Description | Hotel manager uses revenue calculator |
+| Precondition |  None |
+| Scenario | 1. Actor access the webpage. <br> 2. Actor fills in each detail of the calculator <br> 3. Actor select "Calculate" option |
+| Result | Estimated revenue increase is presented to the actor |
 | Exceptions |TBD  |
 | Extensions | N/A  |
 
+| Name | 2. Hotel manager uses revenue calculator |
+| --- | --- |
+| Actor | Hotel manager |
+| Description | ... |
+| Precondition |  None |
+| Scenario | ... |
+| Result | .. |
+| Exceptions |TBD  |
+| Extensions | N/A  |
