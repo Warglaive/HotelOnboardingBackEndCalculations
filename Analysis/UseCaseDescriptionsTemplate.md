@@ -19,7 +19,7 @@
 | Exceptions |TBD  |
 | Extensions | N/A  |
 
-| 2. Hotel name | Hotel manager fills in hotel name |
+| 3. Hotel name | Hotel manager fills in hotel name |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | 1. Actor  |
