@@ -9,12 +9,12 @@
 | Exceptions |TBD  |
 | Extensions | 1. Actor is adviced to fill in email address |
 
-| Email address | 2. Hotel manager fills in email address |
+| 2. Email address | Hotel manager fills in email address |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | 1. Actor  |
-| Precondition |  None |
-| Scenario | ... |
+| Precondition | None |
+| Scenario | 1. The system requests an email address from the actor <br> 2. The actor fill in email address |
 | Result | .. |
 | Exceptions |TBD  |
 | Extensions | N/A  |
