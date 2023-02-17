@@ -76,5 +76,15 @@
 | Precondition | 1. Onboard(Submit) Hotel |
 | Scenario | 1. Actor navigates to facilities overview <br> 2. System displays all facilities <br> 3. Actor selects a single facility 4. System displays multiple options (edit, delete, disable, other) <br> 5. Actor selects to edit selected facility <br> 5. System prompts the actor to add new data <br> 6. Actor updates the selected facility with new data <br> 6. System applies and visualizes the changes |
 | Result | Facility updated successfully |
-| Exceptions | 1. Out of bounds exception |
+| Exceptions | TBD |
+| Extensions | TBD |
+
+| 9. Approve/deny changes proposed by ViaLuxury | Hotel manager approves/denies changes |
+| --- | --- |
+| Actor | Hotel manager |
+| Description | Hotel manager approves/denies changes proposed by ViaLuxury |
+| Precondition | 1. Onboard(Submit) Hotel |
+| Scenario |  |
+| Result | Facility updated successfully |
+| Exceptions | TBD |
 | Extensions | TBD |
