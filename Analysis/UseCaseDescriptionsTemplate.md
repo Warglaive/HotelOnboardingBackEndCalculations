@@ -88,3 +88,26 @@
 | Result | Facility updated successfully |
 | Exceptions | TBD |
 | Extensions | TBD |
+##
+
+| 10. Create employee account | Hotel manager creates account |
+| --- | --- |
+| Actor | Hotel manager |
+| Description | Hotel manager creates Front-Desk or other employee account |
+| Precondition | 1. Onboard(Submit) Hotel |
+| Scenario | 1.  |
+| Result | Facility updated successfully |
+| Exceptions | TBD |
+| Extensions | TBD |
+
+
+##
+| 11. Grant priviliges | Hotel manager grants priviliges |
+| --- | --- |
+| Actor | Hotel manager |
+| Description | Hotel manager grants priviliges to Hotel Employee |
+| Precondition | 1. Onboard(Submit) Hotel |
+| Scenario |  |
+| Result | Facility updated successfully |
+| Exceptions | TBD |
+| Extensions | TBD |
