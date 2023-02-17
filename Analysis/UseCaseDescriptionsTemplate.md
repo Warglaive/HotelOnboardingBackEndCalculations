@@ -12,7 +12,7 @@
 | 2. Email address | Hotel manager fills in email address |
 | --- | --- |
 | Actor | Hotel manager |
-| Description | 1. Actor  |
+| Description | Hotel manager fills in email address  |
 | Precondition | None |
 | Scenario | 1. The system requests an email address from the actor <br> 2. The actor submits their email address <br> 3. The system notifies the actor that the email address is now saved |
 | Result | Save actor's email address |
@@ -22,7 +22,7 @@
 | 3. Hotel name | Hotel manager fills in hotel name |
 | --- | --- |
 | Actor | Hotel manager |
-| Description | 1. Actor  |
+| Description | Hotel manager fills in hotel name  |
 | Precondition | 1. Email address <br> |
 | Scenario | 1. Actor fills in the hotel name <br> 2. The system checks if the hotel exists in the database and pre-fills all the fields <br> 3. The actor sees all the pre-filled fields <br> 4. The system requests approval if each of the fields is up-to-date <br> 5. The actor approves/denies or edits the data |
 | Result | Hotel data filled in successfully |
@@ -32,7 +32,7 @@
 | 4. Optional(Exclusive) details | Hotel manager fills in optional(Exclusive) hotel details |
 | --- | --- |
 | Actor | Hotel manager |
-| Description | 1. Actor  |
+| Description | Hotel manager fills in optional(Exclusive) hotel details  |
 | Precondition | 1. Email address <br> 2. Hotel name |
 | Scenario | 1. System asks the actor for any hotel exclusive and/or optional details <br> 2. Actor fills in any hotel exclusive and/or optional details |
 | Result | Exclusive/optional hotel data filled in successfully |
@@ -42,7 +42,7 @@
 | 5. Onboard(Submit) Hotel | Hotel manager onboards hotel |
 | --- | --- |
 | Actor | Hotel manager |
-| Description | 1. Actor  |
+| Description | Hotel manager onboards hotel  |
 | Precondition | 1. Email address <br> 2. Hotel name <br> |
 | Scenario | 1. System presents the actor with an overview of all the filled in hotel details and email address <br> 2. Actor decides to edit any of the data or to submit the data <br> 3. If edit -> actor is allowed to modify details <br> 4. If submit -> System registers the hotel in the database <br> 5. System displays the onboarded hotel page |
 | Result | Hotel onboarded successfully|
@@ -52,10 +52,19 @@
 | 6. Upload photos | Hotel manager uploads hotel photos |
 | --- | --- |
 | Actor | Hotel manager |
-| Description | 1. Actor  |
+| Description | Hotel manager uploads hotel photos  |
 | Precondition | 1. Onboard(Submit) Hotel |
 | Scenario | 1. System urges the actor to upload photos <br> 2. Actor selects photos to be uploaded from multiple sources <br> 3. System stores the photos <br> 4. System visualizes the photos on the onboarded hotel page  |
 | Result | Photos are successfully uploaded and visualized |
 | Exceptions | 1. Invalid photo format exception <br> 2. Photo size exception <br> |
 | Extensions | TBD |
-##
+
+| 7. Contact ViaLuxury | Hotel manager contacts ViaLuxury representative |
+| --- | --- |
+| Actor | Hotel manager |
+| Description | Hotel manager contacts ViaLuxury representative |
+| Precondition | 1. Onboard(Submit) Hotel |
+| Scenario | 1. Actor access contact page <br> 2. System displays multiple contact options <br> 3. Actor selects an option <br> 4. System connects the actor to the ViaLuxury representative |
+| Result |  |
+| Exceptions | |
+| Extensions | TBD |
