@@ -65,6 +65,6 @@
 | Description | Hotel manager contacts ViaLuxury representative |
 | Precondition | 1. Onboard(Submit) Hotel |
 | Scenario | 1. Actor access contact page <br> 2. System displays multiple contact options <br> 3. Actor selects an option <br> 4. System connects the actor to the ViaLuxury representative |
-| Result |  |
-| Exceptions | |
+| Result | Actor successfully contacts ViaLuxury representative |
+| Exceptions | 1. Contact option not available at the moment <br> |
 | Extensions | TBD |
