@@ -74,7 +74,7 @@
 | Actor | Hotel manager |
 | Description | Hotel manager updates available hotel facilities |
 | Precondition | 1. Onboard(Submit) Hotel |
-| Scenario | 1. Actor access contact page <br> 2. System displays multiple contact options <br> 3. Actor selects an option <br> 4. System connects the actor to the ViaLuxury representative |
-| Result | Actor successfully contacts ViaLuxury representative |
-| Exceptions | 1. Contact option not available at the moment <br> |
+| Scenario | 1. Actor navigates to facilities overview <br> 2. System displays all facilities <br> 3. Actor selects a single facility 4. System displays multiple options (edit, delete, disable, other) <br> 5. Actor selects to edit selected facility <br> 5. System prompts the actor to add new data <br> 6. Actor updates the selected facility with new data <br> 6. System applies and visualizes the changes |
+| Result | Facility updated successfully |
+| Exceptions | 1. Out of bounds exception |
 | Extensions | TBD |
