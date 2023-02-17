@@ -54,7 +54,7 @@
 | Actor | Hotel manager |
 | Description | Hotel manager uploads hotel photos  |
 | Precondition | 1. Onboard(Submit) Hotel |
-| Scenario | 1. System urges the actor to upload photos <br> 2. Actor selects photos to be uploaded from multiple sources <br> 3. System stores the photos <br> 4. System visualizes the photos on the onboarded hotel page  |
+| Scenario | 1. System urges the actor to upload photos <br> 2. Actor selects photos to be uploaded from multiple sources <br> 3. System stores the photos <br> 4. System prompts ViaLuxury for approval of the photos 5. ViaLuxury approves the photos 6. System visualizes the photos on the onboarded hotel page  |
 | Result | Photos are successfully uploaded and visualized |
 | Exceptions | 1. Invalid photo format exception <br> 2. Photo size exception <br> |
 | Extensions | TBD |
@@ -63,6 +63,16 @@
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager contacts ViaLuxury representative |
+| Precondition | 1. Onboard(Submit) Hotel |
+| Scenario | 1. Actor access contact page <br> 2. System displays multiple contact options <br> 3. Actor selects an option <br> 4. System connects the actor to the ViaLuxury representative |
+| Result | Actor successfully contacts ViaLuxury representative |
+| Exceptions | 1. Contact option not available at the moment <br> |
+| Extensions | TBD |
+
+| 8. Update facilities | Hotel manager updates available hotel facilities |
+| --- | --- |
+| Actor | Hotel manager |
+| Description | Hotel manager updates available hotel facilities |
 | Precondition | 1. Onboard(Submit) Hotel |
 | Scenario | 1. Actor access contact page <br> 2. System displays multiple contact options <br> 3. Actor selects an option <br> 4. System connects the actor to the ViaLuxury representative |
 | Result | Actor successfully contacts ViaLuxury representative |
