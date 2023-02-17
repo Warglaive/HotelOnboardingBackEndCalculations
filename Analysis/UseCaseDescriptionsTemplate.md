@@ -49,14 +49,13 @@
 | Exceptions | TBD |
 | Extensions | TBD |
 
-#CONTINUE HERE
 | 6. Upload photos | Hotel manager uploads hotel photos |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | 1. Actor  |
-| Precondition | 1. Email address <br> 2. Hotel name |
-| Scenario | 1. System asks the actor for any hotel exclusive and/or optional details <br> 2. Actor fills in any hotel exclusive and/or optional details |
-| Result | Exclusive/optional hotel data filled in successfully |
-| Exceptions | 1. Hotel does not exist<br> 2. No exclusive features <br> 3. No optional features |
+| Precondition | 1. Onboard(Submit) Hotel |
+| Scenario | 1. System urges the actor to upload photos <br> 2. Actor selects photos to be uploaded from multiple sources <br> 3. System stores the photos <br> 4. System visualizes the photos on the onboarded hotel page  |
+| Result | Photos are successfully uploaded and visualized |
+| Exceptions | 1. Invalid photo format exception <br> 2. Photo size exception <br> |
 | Extensions | TBD |
 ##
