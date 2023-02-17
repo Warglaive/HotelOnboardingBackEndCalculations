@@ -29,3 +29,13 @@
 | Exceptions | 1. Hotel does not exist<br> 2.  |
 | Extensions | If the hotel does not exist -> actor fills in data manually  |
 # Continue at "Fill in optional (hotel exclusive) details"
+
+| 4. Optional(Exclusive) details | Hotel manager fills in optional(Exclusive) hotel details |
+| --- | --- |
+| Actor | Hotel manager |
+| Description | 1. Actor  |
+| Precondition | 1. Email address <br> 2. Hotel name |
+| Scenario | 1. System asks the actor for any hotel exclusive and/or optional details <br> 2. Actor fills in any hotel exclusive and/or optional details |
+| Result | Exclusive/optional hotel data filled in successfully |
+| Exceptions | 1. Hotel does not exist<br> 2. No exclusive features <br> 3. No optional features |
+| Extensions | TBD |
