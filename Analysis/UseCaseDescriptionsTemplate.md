@@ -95,7 +95,7 @@
 | Actor | Hotel manager |
 | Description | Hotel manager creates Front-Desk or other employee account |
 | Precondition | 1. Onboard(Submit) Hotel |
-| Scenario | 1.  |
+| Scenario | 1. Actor selects  |
 | Result | Facility updated successfully |
 | Exceptions | TBD |
 | Extensions | TBD |
