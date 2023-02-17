@@ -59,6 +59,16 @@
 | Exceptions | 1. Invalid photo format exception <br> 2. Photo size exception <br> |
 | Extensions | TBD |
 
+| 7. Overviews hotels | Hotel manager overviews hotels |
+| --- | --- |
+| Actor | Hotel manager |
+| Description | Hotel manager overviews all onboarded hotels by him and his employees|
+| Precondition | 1. Onboard(Submit) Hotel |
+| Scenario | 1. Actor accesses a page on which all hotels registered by them or their employees are visualized <br> 2. System visualizes all hotels related to the actor and their employees |
+| Result | Actor is able to see all hotels registered by them or their employees |
+| Exceptions | N/A |
+| Extensions | TBD |
+
 | 7. Contact ViaLuxury | Hotel manager contacts ViaLuxury representative |
 | --- | --- |
 | Actor | Hotel manager |
@@ -88,7 +98,16 @@
 | Result | Facility updated successfully |
 | Exceptions | TBD |
 | Extensions | TBD |
-##
+
+| 10. Overview employees | Hotel manager overviews employees |
+| --- | --- |
+| Actor | Hotel manager |
+| Description | Hotel manager can see all registered employees and his/hers profile(email) |
+| Precondition | 1. Onboard(Submit) Hotel |
+| Scenario | 1. Actor selects employees overview page <br> 2. System displays all employees and his/hers profile(email) <br>  |
+| Result | Actor is now able to see all employees registered by him |
+| Exceptions | TBD |
+| Extensions | TBD |
 
 | 10. Create employee account | Hotel manager creates account |
 | --- | --- |
@@ -100,7 +119,7 @@
 | Exceptions | 1. Incorrect email address <br> 2. Email address already in use <br> |
 | Extensions | TBD |
 
-##
+
 | 11. Grant priviliges | Hotel manager grants priviliges |
 | --- | --- |
 | Actor | Hotel manager |
