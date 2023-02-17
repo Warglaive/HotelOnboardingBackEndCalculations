@@ -95,11 +95,10 @@
 | Actor | Hotel manager |
 | Description | Hotel manager creates Front-Desk or other employee account |
 | Precondition | 1. Onboard(Submit) Hotel |
-| Scenario | 1. Actor selects  |
-| Result | Facility updated successfully |
-| Exceptions | TBD |
+| Scenario | 1. Actor selects employees overview <br> 2. System displays all employees <br> 3. Actor selects create a new employee by their email address <br> 4. System receives email address and generates secure password and sends it to their email <br> 5. Employee receives the password and is now able to log-in <br> 6. System redirects actor to employees overview  |
+| Result | Employee account created successfully |
+| Exceptions | 1. Incorrect email address <br> 2. Email address already in use <br> |
 | Extensions | TBD |
-
 
 ##
 | 11. Grant priviliges | Hotel manager grants priviliges |
