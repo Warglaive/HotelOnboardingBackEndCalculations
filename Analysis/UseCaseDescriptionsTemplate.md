@@ -119,12 +119,12 @@
 | Exceptions | 1. Incorrect email address <br> 2. Email address already in use <br> |
 | Extensions | TBD |
 
-| 13. Manage priviliges | Hotel manager manages priviliges |
+| 13. Manage privileges | Hotel manager manages privileges |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager manages hotel employee priviliges |
 | Precondition | 1. Onboard(Submit) Hotel <br> 2. Employee is registered |
 | Scenario | 1. Actor navigates to employees overview page <br> 2. System displays all registered employees <br> 3. Actor selects an employee to grant priviliges to <br> 3.System displays a list of priviliges to be edited <br> 4. Actor edits priviliges <br> 5. System saves the changes <br> 6. System redirects the actor to employees overview page|
-| Result | Hotel manager successfully grants or removes priviliges of employee |
+| Result | Hotel manager successfully grants or removes privileges of employee |
 | Exceptions | TBD |
 | Extensions | TBD |
