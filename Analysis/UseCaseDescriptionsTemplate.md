@@ -26,7 +26,7 @@
 | Precondition | 1. Email address <br> |
 | Scenario | 1. Actor fills in the hotel name <br> 2. The system checks if the hotel exists in the database and pre-fills all the fields <br> 3. The actor sees all the pre-filled fields <br> 4. The system requests approval if each of the fields is up-to-date <br> 5. The actor approves/denies or edits the data |
 | Result | Hotel data filled in successfully |
-| Exceptions | 1. Hotel does not exist<br> 2.  |
+| Exceptions | 1. Hotel does not exist|
 | Extensions | If the hotel does not exist -> actor fills in data manually  |
 
 | 4. Optional(Exclusive) details | Hotel manager fills in optional(Exclusive) hotel details |
@@ -44,7 +44,7 @@
 | Actor | Hotel manager |
 | Description | Hotel manager onboards hotel  |
 | Precondition | 1. Email address <br> 2. Hotel name <br> |
-| Scenario | 1. System presents the actor with an overview of all the filled in hotel details and email address <br> 2. Actor decides to edit any of the data or to submit the data <br> 3. If edit -> actor is allowed to modify details <br> 4. If submit -> System registers the hotel in the database <br> 5. System displays the onboarded hotel page |
+| Scenario | 1. System presents the actor with an overview of all the filled in hotel details and email address <br> 2. Actor decides to edit any of the data or to submit the data <br> 3a. If edit -> actor is allowed to modify details <br> 3b. If submit -> System registers the hotel in the database <br> 4. System displays the onboarded hotel page |
 | Result | Hotel onboarded successfully|
 | Exceptions | TBD |
 | Extensions | TBD |
