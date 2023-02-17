@@ -48,7 +48,8 @@
 | Result | Hotel onboarded successfully|
 | Exceptions | TBD |
 | Extensions | TBD |
-#
+
+#CONTINUE HERE
 | 6. Upload photos | Hotel manager uploads hotel photos |
 | --- | --- |
 | Actor | Hotel manager |
