@@ -69,7 +69,7 @@
 | Exceptions | N/A |
 | Extensions | TBD |
 
-| 7. Contact ViaLuxury | Hotel manager contacts ViaLuxury representative |
+| 8. Contact ViaLuxury | Hotel manager contacts ViaLuxury representative |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager contacts ViaLuxury representative |
@@ -79,7 +79,7 @@
 | Exceptions | 1. Contact option not available at the moment <br> |
 | Extensions | TBD |
 
-| 8. Update facilities | Hotel manager updates available hotel facilities |
+| 9. Update facilities | Hotel manager updates available hotel facilities |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager updates available hotel facilities |
@@ -89,7 +89,7 @@
 | Exceptions | TBD |
 | Extensions | TBD |
 
-| 9. Approve/deny changes proposed by ViaLuxury | Hotel manager approves/denies changes |
+| 10. Approve/deny changes proposed by ViaLuxury | Hotel manager approves/denies changes |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager approves/denies changes proposed by ViaLuxury |
@@ -99,7 +99,7 @@
 | Exceptions | TBD |
 | Extensions | TBD |
 
-| 10. Overview employees | Hotel manager overviews employees |
+| 11. Overview employees | Hotel manager overviews employees |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager can see all registered employees and his/hers profile(email) |
@@ -109,7 +109,7 @@
 | Exceptions | TBD |
 | Extensions | TBD |
 
-| 10. Create employee account | Hotel manager creates account |
+| 12. Create employee account | Hotel manager creates account |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager creates Front-Desk or other employee account |
@@ -119,13 +119,12 @@
 | Exceptions | 1. Incorrect email address <br> 2. Email address already in use <br> |
 | Extensions | TBD |
 
-
-| 11. Grant priviliges | Hotel manager grants priviliges |
+| 13. Manage priviliges | Hotel manager manages priviliges |
 | --- | --- |
 | Actor | Hotel manager |
-| Description | Hotel manager grants priviliges to Hotel Employee |
-| Precondition | 1. Onboard(Submit) Hotel |
-| Scenario |  |
-| Result | Facility updated successfully |
+| Description | Hotel manager manages hotel employee priviliges |
+| Precondition | 1. Onboard(Submit) Hotel <br> 2. Employee is registered |
+| Scenario | 1. Actor navigates to employees overview page <br> 2. System displays all registered employees <br> 3. Actor selects an employee to grant priviliges to <br> 3.System displays a list of priviliges to be edited <br> 4. Actor edits priviliges <br> 5. System saves the changes <br> 6. System redirects the actor to employees overview page|
+| Result | Hotel manager successfully grants or removes priviliges of employee |
 | Exceptions | TBD |
 | Extensions | TBD |
