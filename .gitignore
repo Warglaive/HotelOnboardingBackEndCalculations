@@ -240,3 +240,4 @@ dummyImplementation/.idea/workspace.xml
 # indent backup files
 *.vpp.bak_*
 *.vpp.lck
+*.tmp
