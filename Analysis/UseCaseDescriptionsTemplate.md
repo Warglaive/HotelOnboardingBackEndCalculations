@@ -109,15 +109,15 @@
 | Exceptions | TBD |
 | Extensions | TBD |
 
-| 12. Create employee account | Hotel manager creates account |
+| 12. Invite an employee | Hotel manager invites an employee to register |
 | --- | --- |
 | Actor | Hotel manager |
-| Description | Hotel manager creates Front-Desk or other employee account |
+| Description | Hotel manager invites an employee to register (via email) |
 | Precondition | 1. Onboard(Submit) Hotel |
-| Scenario | 1. Actor selects employees overview <br> 2. System displays all employees <br> 3. Actor selects create a new employee by their email address <br> 4. System receives email address and generates secure password and sends it to their email <br> 5. Employee receives the password and is now able to log-in <br> 6. System redirects actor to employees overview  |
-| Result | Employee account created successfully |
-| Exceptions | 1. Incorrect email address <br> 2. Email address already in use <br> |
-| Extensions | TBD |
+| Scenario | 1. Actor selects employees overview <br> 2. System displays all employees <br> 3. Actor selects invite new employee by their email address <br> 4. System receives email address and sends an invitation email containing URL with registration form <br> 5. Employee receives a URL containing a registration form <br> 6. Employee fills in registration details and submits the form <br> 7. System validates the input and adds it to the database (grants access) |
+| Result | Employee account created successfully and employee is now able to manage assigned hotel |
+| Exceptions | 1. Input validation failed <br> |
+| Extensions | 1. Hotel manager is able to assign employee to a hotel BEFORE the invite is sent |
 
 | 13. Manage privileges | Hotel manager manages privileges |
 | --- | --- |
@@ -128,7 +128,7 @@
 | Result | Hotel manager successfully grants or removes privileges of employee |
 | Exceptions | TBD |
 | Extensions | TBD |
-##
+
 | 14. Assign Employee | Hotel manager assigns employee |
 | --- | --- |
 | Actor | Hotel manager |
