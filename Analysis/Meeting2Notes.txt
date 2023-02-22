@@ -7,3 +7,5 @@ Package deals include photos, description
 many hotels can have many package deals
 add nearby facilities (include photos and contant, latitude and longtitude) table in the database
 Add latitude and longtitude to Hotel 
+
+check about OpenGDS integration
