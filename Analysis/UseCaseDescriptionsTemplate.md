@@ -4,14 +4,14 @@
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager fills in a registration form |
-| Precondition |  None |
-| Scenario | 1. Actor accesses the registration page <br> 2. System requests all mandatory fields to be filled by the actor <br> 3. Actor fills in his details and submits the form <br> 3. System creates an account  |
-| Result |  |
-| Exceptions |TBD  |
+| Precondition | None |
+| Scenario | 1. Actor accesses the registration page <br> 2. System requests all mandatory fields to be filled by the actor <br> 3. Actor fills in his details and submits the form <br> 3. System creates an account with Hotel manager role and privileges |
+| Result | Hotel manager can now access all the fuctionality of the system after he/she loggs in |
+| Exceptions |TBD |
 | Extensions | TBD |
 
 #
-| 1. Calculator | Hotel manager uses revenue calculator |
+| 2. Calculator | Hotel manager uses revenue calculator |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager uses revenue calculator |
@@ -21,17 +21,17 @@
 | Exceptions |TBD  |
 | Extensions | 1. Actor is adviced to fill in email address |
 
-| 2. Email address | Hotel manager fills in email address |
+| 3. Email address | Hotel manager fills in email address |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager fills in email address  |
 | Precondition | None |
 | Scenario | 1. The system requests an email address from the actor <br> 2. The actor submits their email address <br> 3. The system notifies the actor that the email address is now saved |
 | Result | Save actor's email address and can be used by ViaLuxury for contact later|
-| Exceptions |TBD  |
-| Extensions | N/A  |
+| Exceptions |TBD |
+| Extensions | N/A |
 
-| 3. Hotel name | Hotel manager fills in hotel name |
+| 4. Hotel name | Hotel manager fills in hotel name |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager fills in hotel name  |
@@ -41,7 +41,7 @@
 | Exceptions | 1. Hotel does not exist|
 | Extensions | If the hotel does not exist -> actor fills in data manually  |
 
-| 4. Optional(Exclusive) details | Hotel manager fills in optional(Exclusive) hotel details |
+| 5. Optional(Exclusive) details | Hotel manager fills in optional(Exclusive) hotel details |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager fills in optional(Exclusive) hotel details  |
@@ -51,7 +51,7 @@
 | Exceptions | 1. Hotel does not exist<br> 2. No exclusive features <br> 3. No optional features |
 | Extensions | TBD |
 
-| 5. Onboard(Submit) Hotel | Hotel manager onboards hotel |
+| 6. Onboard(Submit) Hotel | Hotel manager onboards hotel |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager onboards hotel  |
@@ -61,7 +61,7 @@
 | Exceptions | TBD |
 | Extensions | TBD |
 
-| 6. Upload photos | Hotel manager uploads hotel photos |
+| 7. Upload photos | Hotel manager uploads hotel photos |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager uploads hotel photos  |
@@ -71,7 +71,7 @@
 | Exceptions | 1. Invalid photo format exception <br> 2. Photo size exception <br> |
 | Extensions | TBD |
 
-| 7. Overviews hotels | Hotel manager overviews hotels |
+| 8. Overviews hotels | Hotel manager overviews hotels |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager overviews all onboarded hotels by him and his employees|
@@ -81,7 +81,7 @@
 | Exceptions | N/A |
 | Extensions | TBD |
 
-| 8. Contact ViaLuxury | Hotel manager contacts ViaLuxury representative |
+| 9. Contact ViaLuxury | Hotel manager contacts ViaLuxury representative |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager contacts ViaLuxury representative |
@@ -91,7 +91,7 @@
 | Exceptions | 1. Contact option not available at the moment <br> |
 | Extensions | TBD |
 
-| 9. Update facilities | Hotel manager updates available hotel facilities |
+| 10. Update facilities | Hotel manager updates available hotel facilities |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager updates available hotel facilities |
@@ -101,7 +101,7 @@
 | Exceptions | TBD |
 | Extensions | TBD |
 
-| 10. Approve/deny changes proposed by ViaLuxury | Hotel manager approves/denies changes |
+| 11. Approve/deny changes proposed by ViaLuxury | Hotel manager approves/denies changes |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager approves/denies changes proposed by ViaLuxury |
@@ -111,7 +111,7 @@
 | Exceptions | TBD |
 | Extensions | TBD |
 
-| 11. Overview employees | Hotel manager overviews employees |
+| 12. Overview employees | Hotel manager overviews employees |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager can see all registered employees and his/hers profile(email) |
@@ -121,7 +121,7 @@
 | Exceptions | TBD |
 | Extensions | TBD |
 
-| 12. Invite an employee | Hotel manager invites an employee to register |
+| 13. Invite an employee | Hotel manager invites an employee to register |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager invites an employee to register (via email) |
@@ -131,7 +131,7 @@
 | Exceptions | 1. Input validation failed <br> |
 | Extensions | 1. Hotel manager is able to assign employee to a hotel BEFORE the invite is sent |
 
-| 13. Manage privileges | Hotel manager manages privileges |
+| 14. Manage privileges | Hotel manager manages privileges |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager manages hotel employee priviliges |
@@ -141,7 +141,7 @@
 | Exceptions | TBD |
 | Extensions | TBD |
 
-| 14. Assign Employee | Hotel manager assigns employee |
+| 15. Assign Employee | Hotel manager assigns employee |
 | --- | --- |
 | Actor | Hotel manager |
 | Description | Hotel manager assigns a registered hotel employee to a onboarded hotel |
