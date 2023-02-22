@@ -1,0 +1,9 @@
+Assign employee to a hotel with spec. priviliges
+add Register use case
+Hotel manager invites by email and employee can create an account
+Hotels have facilities as well
+Packages have photos
+Package deals include photos, description
+many hotels can have many package deals
+add nearby facilities (include photos and contant, latitude and longtitude) table in the database
+Add latitude and longtitude to Hotel 
