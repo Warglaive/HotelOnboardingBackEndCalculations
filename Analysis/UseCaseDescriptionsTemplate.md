@@ -134,7 +134,7 @@
 | Actor | Hotel manager |
 | Description | Hotel manager assigns a registered hotel employee to a onboarded hotel |
 | Precondition | 1. Onboard(Submit) Hotel <br> 2. Employee is registered |
-| Scenario | |
-| Result | Hotel manager successfully grants or removes privileges of employee |
-| Exceptions | TBD |
+| Scenario | 1. Actor overviews all employees <br> 2. Actor selects a employee <br> 3. System displays all the details of the employee <br> 4. Actor assigns a hotel to the employee <br> 5. System allows the selected employee to manage the selected hotel |
+| Result | Hotel manager successfully assigns an employee to a hotel |
+| Exceptions | 1. Hotel employee already assigned <br> 2. Only 1 employee per hotel is allowed |
 | Extensions | TBD |
