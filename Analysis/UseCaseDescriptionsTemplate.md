@@ -128,3 +128,13 @@
 | Result | Hotel manager successfully grants or removes privileges of employee |
 | Exceptions | TBD |
 | Extensions | TBD |
+##
+| 14. Assign Employee | Hotel manager assigns employee |
+| --- | --- |
+| Actor | Hotel manager |
+| Description | Hotel manager assigns a registered hotel employee to a onboarded hotel |
+| Precondition | 1. Onboard(Submit) Hotel <br> 2. Employee is registered |
+| Scenario | |
+| Result | Hotel manager successfully grants or removes privileges of employee |
+| Exceptions | TBD |
+| Extensions | TBD |
