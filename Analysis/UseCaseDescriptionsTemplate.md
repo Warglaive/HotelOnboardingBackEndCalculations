@@ -1,4 +1,16 @@
 ## Hotel Manger
+#
+| 1. Register | Hotel manager registers |
+| --- | --- |
+| Actor | Hotel manager |
+| Description | Hotel manager fills in a registration form |
+| Precondition |  None |
+| Scenario | 1. Actor accesses the registration page <br> 2. System requests all mandatory fields to be filled by the actor <br> 3. Actor fills in his details and submits the form <br> 3. System creates an account  |
+| Result |  |
+| Exceptions |TBD  |
+| Extensions | TBD |
+
+#
 | 1. Calculator | Hotel manager uses revenue calculator |
 | --- | --- |
 | Actor | Hotel manager |
@@ -15,7 +27,7 @@
 | Description | Hotel manager fills in email address  |
 | Precondition | None |
 | Scenario | 1. The system requests an email address from the actor <br> 2. The actor submits their email address <br> 3. The system notifies the actor that the email address is now saved |
-| Result | Save actor's email address |
+| Result | Save actor's email address and can be used by ViaLuxury for contact later|
 | Exceptions |TBD  |
 | Extensions | N/A  |
 
