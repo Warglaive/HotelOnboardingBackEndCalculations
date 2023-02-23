@@ -3,7 +3,7 @@ Facilities - pools
 Facilities nearby are now "Attractions"
 Hotel upgrades (extra shampagne for example) - Addons
 
-They sell package with amenities and packages
+They sell package with amenities 
 Amenities can differ from items included in the package(minibar, espresso machine)
 
 Categories:
@@ -15,7 +15,7 @@ Amenities goes into a room
 package deals have items
 Hotel have many rooms
 Amenities and items are the same.
-Room connectes with Hotel and Room with a package
+Room connects with Hotel and Room with a package
 Table for manual editing amenities
 
 Items are included in a package
