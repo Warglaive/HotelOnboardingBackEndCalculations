@@ -15,3 +15,4 @@ Amenities goes into a room
 package deals have items
 Hotel have many rooms
 Amenities and items are the same.
+Room connectes with Hotel and Room with a package
