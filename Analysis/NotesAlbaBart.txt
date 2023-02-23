@@ -19,4 +19,4 @@ Room connectes with Hotel and Room with a package
 Table for manual editing amenities
 
 Items are included in a package
-Items have photos, title and description
+Items have photos, title and description 
