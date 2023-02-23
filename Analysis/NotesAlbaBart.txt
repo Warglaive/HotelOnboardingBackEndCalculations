@@ -1,0 +1,16 @@
+Amenities - small things (wifi, shampoo and others)
+Facilities - pools
+Facilities nearby are now "Attractions"
+Hotel upgrades (extra shampagne for example) - Addons
+
+They sell package with amenities and packages
+Amenities can differ from items included in the package(minibar, espresso machine)
+
+Categories:
+facilities, amenities, items(included in the package), addon
+
+Hotel to facilities
+Package to items/amenities
+Amenities goes into a room
+package deals have items
+Hotel have many rooms
