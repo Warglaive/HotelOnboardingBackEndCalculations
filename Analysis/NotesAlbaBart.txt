@@ -14,3 +14,4 @@ Package to items/amenities
 Amenities goes into a room
 package deals have items
 Hotel have many rooms
+Amenities and items are the same.
