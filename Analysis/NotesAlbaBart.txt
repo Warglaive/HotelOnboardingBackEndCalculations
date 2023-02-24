@@ -19,3 +19,15 @@ Table for manual editing amenities
 
 Amenities are included in a package
 Amenities have photos, title and description 
+//////////////////////////
+Amenities live in room level (facilities connectted to a room)
+Items live above package level (only present because of a package) - connect to Package deals
+
+Put addons (extra wine) on package level 
+//////////////////////////
+
+Legal - (Hotel Manager) One to many (Legal document)
+Hotel has legal (upper level documents) - chain contract
+Hotel manager has legal (lower level single hotel documents) - individ. hotel contract
+
+maybe add a type param to Legal
