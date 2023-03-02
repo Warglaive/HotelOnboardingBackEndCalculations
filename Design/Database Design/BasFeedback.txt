@@ -1,0 +1,11 @@
+Extra's can be chosen for each package. If they are chosen, they get connected to an order.
+
+Extra's are not mandatory, except for one specific setting we are using.
+
+Extra's are like 'A champagne bottle on the room'
+
+
+We do have something like black friday deals, and for those deals we make a few extra's mandatory. Like 'Dinner for 2'.
+But perhaps this case is not 100% mandatory just for now. But good to bear in mind. (black friday deals are 'rooms for "free"')
+
+Also, to make it a bit more complicated, we may have extra's that are mandatory only for check-ins on say Friday and Saturday.
