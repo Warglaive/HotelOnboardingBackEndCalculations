@@ -1,0 +1,2 @@
+1. Explain OpenGDS connections (eg OpenGDS rate_id)
+2. 
