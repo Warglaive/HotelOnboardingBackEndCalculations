@@ -1,5 +1,0 @@
-1. Explain OpenGDS connections (eg OpenGDS rate_id)
-2. There are many tables that seem to be for later implementation, like payments, credit cards, virtual credit cards, vouchers, alerts, search filters, themes, recommendations and more.
-Shall I create them now by copying the old DB's info?
-
-3. What will the DBSchema be used for?
