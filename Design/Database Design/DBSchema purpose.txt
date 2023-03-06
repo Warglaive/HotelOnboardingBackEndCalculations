@@ -1,0 +1,6 @@
+Directus CMS means - cms.vialuxury.com
+CMS will receive data(draft hotels and packages) from the Onboarding app
+
+The purpose of the DBSchema is
+to be sure that the data you collect matches the data that our cms needs to publish packages.
+in principle the schema does not have to match, but it makes life a lot easier. If that makes sense?
