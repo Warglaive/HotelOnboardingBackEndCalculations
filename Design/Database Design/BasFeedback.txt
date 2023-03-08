@@ -9,3 +9,6 @@ We do have something like black friday deals, and for those deals we make a few 
 But perhaps this case is not 100% mandatory just for now. But good to bear in mind. (black friday deals are 'rooms for "free"')
 
 Also, to make it a bit more complicated, we may have extra's that are mandatory only for check-ins on say Friday and Saturday.
+
+
+Documents can have status
