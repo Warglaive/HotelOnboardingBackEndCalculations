@@ -1,0 +1,21 @@
+    Write your FastAPI application code and save it in a directory on your local machine.
+    Create a Dockerfile in the same directory as your FastAPI application code.
+    In the Dockerfile, specify the base image you want to use (e.g. python:3.9), and then copy your application code into the container.
+    Install any dependencies your application needs inside the container using pip or another package manager.
+    Expose the port that your FastAPI application runs on (by default, this is 8000).
+    Define the command to run your application (e.g. uvicorn main:app --host 0.0.0.0 --port 8000).
+
+Once you have created the Dockerfile, you can use the docker build command to build the container image, and then the docker run command to start a container from that image.
+
+Here's an example Dockerfile:
+
+
+FROM python:3.9
+WORKDIR /app
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+COPY . .
+EXPOSE 8000
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+
+In this example, the Dockerfile assumes that you have a file called requirements.txt that lists your application's dependencies, and that your main FastAPI application file is called main.py. You should modify the Dockerfile to match your application's specific requirements.
